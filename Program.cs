@@ -1,8 +1,9 @@
-﻿string output = "Placeholder";
+﻿#region Variables
+
+#endregion
 
 
-#region Test Calculations
-
+#region Calculations
 
 void CreatePoint(){
     // Create a new vertex point that defaults to 0,0,0
@@ -11,7 +12,7 @@ void CreatePoint(){
         new int[]{0,0,0},
         new int[]{1,1,1}
     };
-    return emptyVertex;
+    // Would like to return this or add it to a list to track but not sure yet XD
 }
 
 #endregion
